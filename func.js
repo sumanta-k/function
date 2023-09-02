@@ -12,4 +12,13 @@ function sum(num1,num2){
 }
 
 //invoke sum function
-sum();
+sum(5,5);
+
+//write a function for subtract
+function subtract(num1,num2){
+    return num1-num2;
+}
+let x;
+//invoke subtract function
+x = subtract(10,2);
+console.log(x);
