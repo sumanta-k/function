@@ -22,3 +22,6 @@ let x;
 //invoke subtract function
 x = subtract(10, 2);
 console.log(x);
+
+
+console.log("function");
