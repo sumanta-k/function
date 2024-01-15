@@ -1,5 +1,5 @@
 //declaring a function
-function sayHello(){
+function sayHello() {
     console.log("hello world");
 }
 
@@ -7,18 +7,18 @@ function sayHello(){
 sayHello();
 
 //write a function that took two number as parameter and display their sum
-function sum(num1,num2){
-    console.log(num1+num2);
+function sum(num1, num2) {
+    console.log(num1 + num2);
 }
 
 //invoke sum function
-sum(5,5);
+sum(5, 5);
 
 //write a function for subtract
-function subtract(num1,num2){
-    return num1-num2;
+function subtract(num1, num2) {
+    return num1 - num2;
 }
 let x;
 //invoke subtract function
-x = subtract(10,2);
+x = subtract(10, 2);
 console.log(x);
